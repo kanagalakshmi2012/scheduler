@@ -49,5 +49,5 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.ijsat.org/ \
 **Author Contact** \
-**LinkedIn**:  | **Email**: kanagalakshmi2004@gmail.com
+**LinkedIn**: http://linkedin.com/in/kanagalakshmi-murugan-12b278199 | **Email**: kanagalakshmi2004@gmail.com
 
