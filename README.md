@@ -1,9 +1,9 @@
 # scheduler
 **REINFORCEMENT LEARNING SCHEDULER TO IMPROVE KUBERNETES PERFORMANCE AND SCALABILITY**
 * Author: Kanagalakshmi Murugan
-* Published In : International Journal on Science and Technology (IJSAT)
-* Publication Date: 06-2022
-* E-ISSN: 2229-7677
+* Published In : International Journal on Leading Reserach Publication (IJLRP)
+* Publication Date: 05-2022
+* E-ISSN: 2582-8010
 * Impact Factor: 9.88
 * Link:
 
@@ -42,8 +42,8 @@ This paper investigates the replication time challenges in Viewstamped Replicati
 **Citation** \
 OPTIMIZING READ PERFORMANCE IN DISTRIBUTED systems USING Chrony Sync process. \
 Kanagalakshmi Murugan \
-International Journal on Science and Technology \
-E-ISSN-2229-7677 \
+International Journal on Leading Reserach Publication \
+E-ISSN-2582-8010 \
 License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
