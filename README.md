@@ -8,39 +8,47 @@
 * Link:
 
 **Abstract:**
-This paper investigates the replication time challenges in Viewstamped Replication (VR), a consensus protocol widely used in distributed systems for ensuring consistency and fault tolerance. As the number of nodes increases, VR suffers from high replication delays due to its quorum-based communication model. These delays negatively impact system throughput and responsiveness, especially in performance-critical or real-time environments. To address this, the paper proposes an alternative approach using the ZAB (ZooKeeper Atomic Broadcast) protocol to reduce replication time. The solution aims to maintain VR’s reliability while improving scalability and operational efficiency in large distributed systems.
+This paper explores performance improvements in Kubernetes scheduling through reinforcement learning (RL) techniques. Unlike traditional rule-based methods, RL-based schedulers adaptively learn optimal pod placement by observing system feedback. The study highlights how such approaches improve resource utilization, reduce pod latency, and enhance cluster efficiency. Kubernetes' default scheduler is extended with intelligent decision-making to handle complex, dynamic workloads. Results demonstrate that RL offers a promising path toward smarter, more scalable orchestration in containerized environments.
 
 **Key Contributions:**
-* Algorithm Development
-  Designed and optimized Chrony sync time algorithm to achieve high write availability in distributed systems.
-* Performance Comparison
-  Conducted bench marking between NTP Sync time and Chrony sync time.
-* Reserach Leadership
-  Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
+
+* **Scheduler Enhancement:**\
+Developed an adaptive scheduling strategy using reinforcement learning to optimize pod placement in Kubernetes clusters.
+
+* **Resource Efficiency Evaluation:**\
+Demonstrated improved resource utilization and reduced latency compared to traditional rule-based scheduling approaches.
+
+* **Performance Comparison:**\
+  Conducted bench marking between baseline scheduler and reinforcement learning scheduler.
+
+* **Reserach Leadership:**\
+  Directed the design and execution of research efforts, concentrating on improving distributed databases through innovative algorithmic strategies.
 
 **Relevance & Real-World Impact**
 
-* **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by improving the write availability in distributed systems.
-* **Write availability Improvement:** \
-    need to add here
+* **Kubernetes Scheduling Optimization:**\
+Improved cluster orchestration by integrating reinforcement learning into the scheduling process, enabling intelligent pod placement based on real-time feedback.
+
+* **Resource Utilization Enhancement:**\
+Achieved better CPU and memory allocation efficiency, minimizing pod latency and boosting overall system throughput in dynamic container environments.
+
 * **Academic Recognition :** \
-    need to add here
+    Included in analytical and technical documents centered on domain name resolution and enhancements to distributed key-value stores.
 * **Educational Impact:** \
-    need to add here \
+    Insights leveraged in academic development and research work exploring containerized platforms and cloud-native architectures.
 
 **Experimental Results (Summary)**:
 
-  | Nodes | VR Replication Time (ms) | ZAB Replication Time (ms) | Improvement (%) |
+  | Nodes | Baseline Scheduler (ms)  | RL-Based Scheduler (ms)   | Improvement (%) |
   |-------|--------------------------| --------------------------| ----------------|
-  | 3     | 6.0                      | 5.2                       | 13.3            |
-  | 5     | 8.1                      | 6.7                       | 17.3            |
-  | 7     | 10.5                     | 8.4                       | 20.0            |
-  | 9     | 13.0                     | 10.3                      | 20.8            |
-  | 11    | 15.6                     | 12.2                      | 21.8            |
+  | 3     | 150                      | 100                       | 33.33           |
+  | 5     | 138                      | 88                        | 36.23           |
+  | 7     | 125                      | 82                        | 34.40           |
+  | 9     | 120                      | 77                        | 35.83           |
+  | 11    | 112                      | 72                        | 35.71           |
 
 **Citation** \
-OPTIMIZING READ PERFORMANCE IN DISTRIBUTED systems USING Chrony Sync process. \
+REINFORCEMENT LEARNING SCHEDULER TO IMPROVE KUBERNETES PERFORMANCE AND SCALABILITY \
 Kanagalakshmi Murugan \
 International Journal on Leading Reserach Publication \
 E-ISSN-2582-8010 \
