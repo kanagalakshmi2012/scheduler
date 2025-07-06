@@ -4,7 +4,7 @@
 * Published In : International Journal on Leading Reserach Publication (IJLRP)
 * Publication Date: 05-2022
 * E-ISSN: 2582-8010
-* Impact Factor: 9.88
+* Impact Factor: 9.56
 * Link:
 
 **Abstract:**
