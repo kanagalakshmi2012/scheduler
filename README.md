@@ -5,7 +5,7 @@
 * Publication Date: 05-2022
 * E-ISSN: 2582-8010
 * Impact Factor: 9.56
-* Link:
+
 
 **Abstract:**
 This paper explores performance improvements in Kubernetes scheduling through reinforcement learning (RL) techniques. Unlike traditional rule-based methods, RL-based schedulers adaptively learn optimal pod placement by observing system feedback. The study highlights how such approaches improve resource utilization, reduce pod latency, and enhance cluster efficiency. Kubernetes' default scheduler is extended with intelligent decision-making to handle complex, dynamic workloads. Results demonstrate that RL offers a promising path toward smarter, more scalable orchestration in containerized environments.
