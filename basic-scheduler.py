@@ -3,6 +3,7 @@ import time
 from kubernetes import client, config, watch
 config.load_kube_config()
 v1 = client.CoreV1Api()
+
 def get_schedulable_nodes():
     nodes = v1.list_node()
     node_names = [node.metadata.name for node in nodes.items]
