@@ -5,6 +5,7 @@ from kubernetes import client, config, watch
 config.load_kube_config()
 v1 = client.CoreV1Api()
 
+
 nodes = []
 q_table = {}
 alpha = 0.1
